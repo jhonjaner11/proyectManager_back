@@ -1,0 +1,27 @@
+{"empresas":[
+    {
+        "id":1,
+        "nit":"900-978795",
+        "nombre":"Desarrollo S.A.",
+        "correo": "info@desarrollo.com",
+        "direccion": "Av siempre VIVA",
+        "telefono": "200321"
+    },
+    {
+        "id":2,
+        "nit":"900-978796",
+        "nombre":"Assistance Team S.A.S",
+        "correo": "info@ateam.com.co",
+        "direccion": "La Comuna 13",
+        "telefono": "2003212"
+    },
+    {
+        "id":3,
+        "nit":"900-9787979",
+        "nombre":"La empresa de ella S.A.S",
+        "correo": "info@linda.com.co",
+        "direccion": "Bilbao",
+        "telefono": "2003214"
+    }
+]
+}

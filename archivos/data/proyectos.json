@@ -1,0 +1,19 @@
+{"proyectos":[
+    {
+        "id":1,
+        "nombre":"Clonador de gatos",
+        "empresa": 1
+    },
+    {
+        "id":2,
+        "nombre":"Maquina del tiempo",
+        "empresa": 1
+    },
+    {
+        "id":3,
+        "nombre":"ADN - Jurassic Park",
+        "empresa": 2
+    }
+    
+]
+}

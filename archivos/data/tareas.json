@@ -1,0 +1,39 @@
+{"tareas":[
+    {
+        "id":1,
+        "nombre":"averiguar extremidades del gato",
+        "estado": "Activo",
+        "comentarios": "esta super activo",
+        "h_u": 1,
+        "usuario": 1,
+        "usuario_creador":1
+    },
+    {
+        "id":2,
+        "nombre":"averiguar cuantas vidas tiene un gato",
+        "estado": "Proceso",
+        "comentarios": "va en proceso",
+        "h_u": 1 ,
+        "usuario": 2,
+        "usuario_creador":1
+    },
+    {
+        "id":3,
+        "nombre":"Averiguar funcionamiento del primer reloj",
+        "estado": "Proceso",
+        "comentarios": "va en proceso",
+        "h_u": 2,
+        "usuario": 1,
+        "usuario_creador":1
+    },
+    {
+        "id":4,
+        "nombre":"Modelar estructura del ADN DINO",
+        "estado": "Proceso",
+        "comentarios": "va en proceso",
+        "h_u": 3,
+        "usuario": 2,
+        "usuario_creador":1
+    }
+    
+]}

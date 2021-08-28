@@ -1,0 +1,13 @@
+{"empresas_usuarios":[
+    {
+        "id_empresa":1,
+        "fecha":"20/08/21",
+        "id_usuario":2
+    },
+    {
+        "id_empresa":2,
+        "fecha":"20/08/21",
+        "id_usuario":2
+    }
+]
+}

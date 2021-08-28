@@ -486,31 +486,29 @@ app.delete('/api/tarea/:id' , (req , res)=>{
 
     const fs = require('fs');
 
-    var aa = obtener_id();
-    console.log(aa);
 
-    // let rawdata = fs.readFileSync('archivos/data/tareas.json');
-    // let datas = JSON.parse(rawdata);
-    // console.log(datas);
-    // console.log(req.params.id);
-    // let arreglo = datas.tareas;
-    // let tarea=arreglo.filter(s=>s.id==req.params.id);
+    let rawdata = fs.readFileSync('archivos/data/tareas.json');
+    let datas = JSON.parse(rawdata);
+    console.log(datas);
+    console.log(req.params.id);
+    let arreglo = datas.tareas;
+    let tarea=arreglo.filter(s=>s.id==req.params.id);
 
-    // console.log(tarea[0]);
+    console.log(tarea[0]);
 
-    // var i = arreglo.indexOf( tarea[0] );
-    // console.log("indice " + i);
-    // if ( i !== -1 ) {
-    //     arreglo.splice( i, 1 );
-    // }
+    var i = arreglo.indexOf( tarea[0] );
+    console.log("indice " + i);
+    if ( i !== -1 ) {
+        arreglo.splice( i, 1 );
+    }
 
-    // console.log(arreglo);
+    console.log(arreglo);
 
-    // datas.tareas = arreglo;
+    datas.tareas = arreglo;
 
-    // let data_final = JSON.stringify(datas);
+    let data_final = JSON.stringify(datas);
 
-    // fs.writeFileSync('archivos/data/tareas.json', data_final);
+    fs.writeFileSync('archivos/data/tareas.json', data_final);
 
     res.send("Tarea Eliminada");
 
